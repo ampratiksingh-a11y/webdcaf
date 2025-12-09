@@ -63,7 +63,7 @@ This project is uploaded and hosted on GitHub as required for assignment submiss
 
 (Include screenshots of each page here after running your website.)
 
-✍️ Author
+ Author
 
 Pratik Singh
 Student Portfolio Website – Web Development Assignment# webdcaf
