@@ -1,0 +1,98 @@
+/* Basic Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+/* Navbar */
+.navbar{
+  background:#333;
+  color:blue;
+  text-align: center;
+  font-size: larger;
+  padding:15px;
+  overflow:hidden;
+}
+
+.logo{
+  float:left;
+  font-size:22px;
+  font-weight:bold;
+}
+
+.nav-links{
+  float:right;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:18px;
+}
+
+.nav-links a:hover{
+  color:yellow;
+}
+
+/* Home Page */
+.home{
+  padding:40px; 
+  text-align:center;
+}
+
+/* About Page */
+.about{
+  padding:40px;
+}
+
+.about img{
+  width:200px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+/* Skills Page */
+.skills-container{
+  display:flex;
+  gap:20px;
+  padding:40px;
+}
+
+.card{
+  background:#f2f2f2;
+  padding:20px;
+  border:2px solid #000;
+  width:30%;
+  border-radius:10px;
+}
+
+/* Contact Form */
+form{
+  width:400px;
+  margin:40px auto;
+  background:#f7f7f7;
+  padding:20px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  background:#333;
+  color:white;
+  margin-top:10px;
+  cursor:pointer;
+}
+button:hover{
+  background:black;
+}
